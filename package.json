@@ -1,0 +1,33 @@
+{
+  "name": "trakt",
+  "main": "server.js",
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "start": "grunt"
+  },
+  "dependencies": {
+    "@types/bootstrap": "^3.3.37",
+    "axios": "^0.17.1",
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "=3.4.7",
+    "body-parser": "=1.15.0",
+    "cookie-parser": "=1.4.3",
+    "cookie-session": "=2.0.0-alpha.2",
+    "express": "=4.13.4",
+    "install": "^0.8.4",
+    "jsonwebtoken": "=5.7.0",
+    "method-override": "~2.1.2",
+    "mongoose": "^4.13.10",
+    "morgan": "^1.7.0",
+    "npm": "^4.0.5",
+    "passport": "=0.3",
+    "passport-github": "^1.1.0",
+    "passport-http": "=0.3",
+    "passport-http-bearer": "=1.0.1",
+    "passport-local": "=1.0.0",
+    "passport-oauth2": "=1.3.0",
+    "store": "^2.0.12"
+  }
+}
